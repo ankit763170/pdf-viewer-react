@@ -1,0 +1,42 @@
+/* App.css */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  flex: 1;
+  border-right: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.right-panel {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.search-box {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h2,
+h3 {
+  color: #333;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
